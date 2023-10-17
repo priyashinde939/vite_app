@@ -1,0 +1,19 @@
+
+.header{
+    position:relative;
+    height:70vh;
+    width:150vh;
+    top:150px;
+    left:380px;
+    background-color: rgba(192, 168, 213, 0.155);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    
+}
+.header p {
+    font-family: cursive;
+    color: rgb(166, 164, 166);
+    font-size: larger;
+    position:-webkit-sticky;
+    text-align: center;
+}
