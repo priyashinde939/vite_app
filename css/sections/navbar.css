@@ -8,6 +8,7 @@ nav {
   display: table;
   margin: 0 auto;
   transform: translateY(-50%);
+  z-index: 1;
 }
 
 nav a {
@@ -15,7 +16,7 @@ nav a {
   width: 33.333%;
   display: table-cell;
   text-align: center;
-  color: #cdcdcd;
+  color: #90939c;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
