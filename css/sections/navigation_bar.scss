@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    list-style-type: none;
+    z-index: 2;
+    
+    li{
+        padding: 6px 10px;
+        display:inline-flex;
+
+        a{
+            position: relative;
+            display: block;
+            padding: 5px 10px;
+            color: beige;
+            font-family: cursive;
+            text-decoration: none;
+            text-transform:uppercase;
+            transition: 0.5s;
+
+            &::after {
+                position: absolute;
+                content: "";
+                top: 100%;
+                left: 0;
+                width: 100%;
+                height: 3px;
+                background: #ffffff;
+                transform: scaleX(0);
+                transform-origin: right;
+                transition: transform 0.5s;
+              }
+              &:hover {
+                color: #f9f9f9;
+              }
+        
+              &:hover::after {
+                transform: scaleX(1);
+                transform-origin: left;
+            }
+        }
+    }
+}
